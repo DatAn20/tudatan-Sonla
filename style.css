@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header__header {
+    background-color: #FFDAB9;
+    border-bottom: 1px solid #ddd;
+}
+
+
+    .row__nav {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+    }
+
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+    }
+
+section {
+    display: block;
+}
+
+
+/*User*/
+.uses {
+    padding: 40px 0 20px;
+    background-image: url(./assests/img/back-uses.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
